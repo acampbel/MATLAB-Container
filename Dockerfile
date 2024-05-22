@@ -35,6 +35,9 @@ RUN export DEBIAN_FRONTEND=noninteractive \
     wget \
     unzip \
     ca-certificates \
+    gcc \
+    g++ \
+    gfortran \
     && apt-get clean \
     && apt-get autoremove \
     && rm -rf /var/lib/apt/lists/*
